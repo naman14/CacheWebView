@@ -34,11 +34,11 @@ public class CacheExtensionConfig {
             add("text");
             add("conf");
             add("webp");
+            add("mp4");
         }
     };
     private static HashSet NO_CACH = new HashSet() {
         {
-            add("mp4");
             add("mp3");
             add("ogg");
             add("avi");
